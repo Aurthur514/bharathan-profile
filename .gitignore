@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharathan M | Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #2563eb, #1d4ed8);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      font-size: 1.5rem;
+      color: #1d4ed8;
+      margin-bottom: 1rem;
+      cursor: pointer;
+    }
+    ul {
+      list-style: disc inside;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #1e40af;
+      margin: 0.4em;
+      padding: 0.5em 0.8em;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+    .skills span:hover {
+      background: #c7d2fe;
+    }
+    .contact a {
+      color: #bbf7d0;
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    .collapsible {
+      cursor: pointer;
+    }
+    .collapsible + div {
+      display: none;
+    }
+    .collapsible.active + div {
+      display: block;
+      animation: fadeIn 0.5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bharathan M</h1>
+    <p>Data Analyst | Chennai, India</p>
+    <p class="contact">
+      <a href="tel:+919566030215">📞 9566030215</a> | 
+      <a href="mailto:mbharathan2000@gmail.com">✉️ Email</a> | 
+      <a href="https://linkedin.com/in/bharathan-m-baa54320b" target="_blank">🔗 LinkedIn</a>
+    </p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2 class="collapsible">Professional Summary</h2>
+      <div>
+        <p>Data Analyst with 1 year of experience in manufacturing and healthcare domains, skilled in SQL, Python, Tableau, and Excel. Adept at streamlining workflows, performing EDA, and building dashboards to support data-driven decision-making.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="collapsible">Experience</h2>
+      <div>
+        <h3>Flextronics – Data Manager (Apr 2024 – Present)</h3>
+        <ul>
+          <li>Managed MES using Flex Flow to streamline production workflows.</li>
+          <li>Built SQL queries for real-time operational reporting.</li>
+          <li>Reduced reporting latency and improved data quality through pipeline optimization.</li>
+        </ul>
+        <h3>BUDDI AI – Junior Data Analyst (Apr 2022 – Jul 2022)</h3>
+        <ul>
+          <li>Performed EDA on healthcare data using Python and Pandas.</li>
+          <li>Built visual reports in Tableau to highlight patient trends and costs.</li>
+          <li>Collaborated with ML teams on data preparation tasks.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="collapsible">Education</h2>
+      <div>
+        <ul>
+          <li>B.Tech in Information Technology – Saveetha Engineering College (CGPA: 7.5)</li>
+          <li>HSC – Velammal Matric Hr. Sec School (71%)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="collapsible">Certifications</h2>
+      <div>
+        <ul>
+          <li>SQL Basics & Intermediate – Hackerrank</li>
+          <li>Data Analyst – Edubridge</li>
+          <li>C, C++, Python – CSC</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="collapsible">Projects</h2>
+      <div>
+        <h3>YouTube Dataset Analysis</h3>
+        <ul>
+          <li>Performed sentiment analysis and trend detection using Python.</li>
+          <li>Visualized insights using Tableau and Power BI.</li>
+        </ul>
+        <h3>Mobile Price Prediction</h3>
+        <ul>
+          <li>Predicted price categories using ML algorithms and EDA in Python.</li>
+          <li>Explored feature relationships to enhance prediction accuracy.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2 class="collapsible">Technical Skills</h2>
+      <div>
+        <span>SQL</span>
+        <span>MySQL</span>
+        <span>Python</span>
+        <span>Excel</span>
+        <span>Tableau</span>
+        <span>Flask</span>
+        <span>GitHub</span>
+        <span>PowerShell</span>
+        <span>AWS</span>
+        <span>Data Pipeline</span>
+        <span>Shell Scripting</span>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="collapsible">Languages</h2>
+      <div>
+        <p>English, Tamil</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bharathan M. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.collapsible').forEach(section => {
+      section.addEventListener('click', () => {
+        section.classList.toggle('active');
+        const content = section.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>
