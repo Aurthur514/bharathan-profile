@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlmodel
+opencv-python-headless
+ultralytics
+pydantic
+shapely
+python-multipart
+httpx
